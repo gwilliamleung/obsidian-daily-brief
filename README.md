@@ -29,7 +29,7 @@ Make sure [Claude Code](https://claude.ai/code) is installed, then open your Obs
 
 **Desktop app** — Open Claude Code, click the folder icon to set your project, and navigate to your Obsidian vault. Then tell it:
 ```
-Run the daily brief agent
+Run the daily brief agent in CLAUDE.md
 ```
 
 **macOS terminal**

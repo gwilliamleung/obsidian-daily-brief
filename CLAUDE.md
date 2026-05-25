@@ -77,8 +77,8 @@ Prepend a new day entry to `01 Updates/📌 Daily Brief.md` (above any previous 
 
 - Group days under `## Month YYYY` headers (e.g. `## May 2026`). No `###` day headings — ever.
 - Every day is wrapped in its own callout.
-- Today uses `> [!note] [[MM-DD-YY Day]]` — always open, non-foldable.
-- All previous days use `> [!note]- [[MM-DD-YY Day]]` — collapsed by default.
+- Today uses `> [!note] [[YYYY-MM-DD]]` — always open, non-foldable.
+- All previous days use `> [!note]- [[YYYY-MM-DD]]` — collapsed by default.
 - Each run: (1) find the first `[!note] ` (no modifier) in the file and change it to `[!note]-`, then (2) prepend the new day as `[!note] `.
 - Today's sections are nested one level inside using `> >`. Macros sub-dropdowns are nested one further level using `> > >`.
 - Set `unread: true` and update `updated:` in frontmatter on every run.
@@ -92,7 +92,7 @@ Prepend a new day entry to `01 Updates/📌 Daily Brief.md` (above any previous 
 ```
 ## May 2026
 
-> [!note] [[05-13-26 Wed]]
+> [!note] [[2026-05-13]]
 >
 > > ✅ Readiness 84 · 👑 Sleep 90 · 👑 Activity 100
 > > 😴 12:47 AM → 9:43 AM · 8h 12m · 23m latency
@@ -119,7 +119,7 @@ Prepend a new day entry to `01 Updates/📌 Daily Brief.md` (above any previous 
 > > > - Half Buldak — 210 cal
 > > > - Fried egg — 70 cal
 
-> [!note]- [[05-12-26 Tue]]
+> [!note]- [[2026-05-12]]
 > ...
 ```
 
