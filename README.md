@@ -12,7 +12,7 @@ The brief opens live each morning with biometrics, weather, tasks, calendar, a m
 
 Three inputs feed one output.
 
-**1. Yesterday's journal** — a raw freeform note you drop in the vault root.
+**1. Yesterday's journal** — a raw freeform note you drop in the vault root. It then finds the approriate year and month folder and gets moved there.
 
 ![Journal entry](journal.JPG)
 
@@ -31,11 +31,13 @@ The agent is defined entirely in `CLAUDE.md` — a structured instruction file t
 ## What it does
 
 **Processes yesterday's journal:**
+
 - Extracts tasks, people, projects touched, and food logged
 - Creates or updates person notes and project status flags in the vault
 - Relocates the raw journal file into the correct dated archive folder
 
 **Builds today's brief:**
+
 - Sleep score, readiness, and activity data via the Oura Ring API
 - Local weather via open-meteo
 - Prioritized task list with auto-applied action verbs and progress labels
@@ -48,17 +50,20 @@ The agent is defined entirely in `CLAUDE.md` — a structured instruction file t
 Make sure [Claude Code](https://claude.ai/code) is installed, then open your Obsidian vault as the working directory.
 
 **Desktop app** — Open Claude Code, click the folder icon to set your project, and navigate to your Obsidian vault. Then tell it:
+
 ```
 Run the daily brief agent in CLAUDE.md
 ```
 
 **macOS terminal**
+
 ```bash
 cd ~/path/to/your/vault
 claude
 ```
 
 **Windows terminal**
+
 ```cmd
 cd C:\path\to\your\vault
 claude
