@@ -4,7 +4,7 @@ A personal morning agent built with Claude Code that runs inside an Obsidian vau
 
 ## Output
 
-<img src="demo.JPG" width="49%" /> <img src="demo2.JPG" width="49%" />
+<img src="" width="49%" /> <img src="demo2.JPG" width="49%" />
 
 The brief opens live each morning with biometrics, weather, tasks, calendar, a mood-read of yesterday, and a macro tally — all collapsed into a single Obsidian note.
 
